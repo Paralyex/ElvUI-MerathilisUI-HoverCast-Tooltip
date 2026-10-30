@@ -1,0 +1,11 @@
+package-as: ElvUI_MerathilisUI_HoverTooltip
+
+move-folders:
+    ElvUI_MerathilisUI_HoverTooltip/ElvUI_MerathilisUI_HoverTooltip: ElvUI_MerathilisUI_HoverTooltip
+
+ignore:
+    - .gitignore
+    - README.md
+    - LICENSE
+    - HCT.png
+    - mct.svg
