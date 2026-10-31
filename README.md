@@ -1,6 +1,6 @@
 # ElvUI MerathilisUI HoverCast Tooltip
 
-A small companion addon for [MerathilisUI](https://www.curseforge.com/wow/addons/merathilisui) (an ElvUI edit). While you hover a unit frame, it shows a tooltip listing the HoverCast click-casting bindings that apply to that unit, for the modifier keys you are holding.
+A small companion addon for [MerathilisUI](https://www.curseforge.com/wow/addons/merathilis-ui) (an ElvUI edit). While you hover a unit frame, it shows a tooltip listing the HoverCast click-casting bindings that apply to that unit, for the modifier keys you are holding.
 
 ## Features
 
