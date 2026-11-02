@@ -18,11 +18,12 @@ Settings are in the ElvUI config under "MerathilisUI HoverCast Tooltip", or open
 
 - ElvUI
 - MerathilisUI, with HoverCast enabled. The tooltip shows nothing while HoverCast is off, and HoverCast stays off while Clique is loaded.
-- Retail (Interface 120105)
+- Retail (Interface 120105) is the tested target.
+- **WoW Forever (Interface 16001): untested.** The TOC allows it to load, but it has not been run on a Forever client. It also needs a **Forever-compatible MerathilisUI**. The current release is Retail-only, so use MerathilisUI's `Beta` branch, which declares Forever support. Expect rough edges and please report problems.
 
 ## Installation
 
-Copy the `ElvUI_MerathilisUI_HoverTooltip` folder into `World of Warcraft/_retail_/Interface/AddOns/`.
+Copy the `ElvUI_MerathilisUI_HoverTooltip` folder into `World of Warcraft/_retail_/Interface/AddOns/` (Retail), or into the `Interface/AddOns/` folder of your WoW Forever installation (untested).
 
 ## How it works
 
