@@ -1,14 +1,15 @@
-## Interface: 120105
+## Interface: 120105, 16001
 ## Author: Paralyex
 ## Version: @project-version@
 ## Title: |cFF1784d1ElvUI|r |cffffffffMerathilis|r|cffff7d0aUI|r HoverCast Tooltip
 ## Notes: Shows the MerathilisUI HoverCast bindings that apply to the hovered unit frame.
-## Dependencies: ElvUI, ElvUI_MerathilisUI
+## Dependencies: ElvUI_MerathilisUI
 ## SavedVariables: MER_HoverTooltipDB
 ## Category: Unit Frames
 ## X-License: MIT
 ## X-Credits: Merathilis (MerathilisUI), Elv & the ElvUI team
 ## X-Flavor: Mainline
+## X-Curse-Project-Name: HoverCast Tooltip for MerathilisUi
 ## X-Curse-Project-ID: 1773724
 
 Core.lua

@@ -48,4 +48,4 @@ This addon was built with AI assistance (GitHub Copilot). The author set the req
 
 ## License
 
-[MIT](LICENSE). MerathilisUI is also MIT licensed (Copyright (c) 2026 Merathilis). This addon contains no MerathilisUI code, only calls to its public API. It is not affiliated with or endorsed by Merathilis or the ElvUI team.
+[MIT](LICENSE). MerathilisUI is also MIT licensed (Copyright (c) 2026 Merathilis). This addon is not affiliated with or endorsed by Merathilis or the ElvUI team.

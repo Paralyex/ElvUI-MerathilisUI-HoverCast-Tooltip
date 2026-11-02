@@ -132,7 +132,8 @@ local function SplitKey(key)
 			break
 		end
 		local name = rest:sub(1, pre - 1)
-		alt, ctrl, shift, meta = alt or name == "ALT", ctrl or name == "CTRL", shift or name == "SHIFT", meta or name == "META"
+		alt, ctrl, shift, meta = alt or name == "ALT", ctrl or name == "CTRL", shift or name == "SHIFT",
+			meta or name == "META"
 		rest = rest:sub(pre + 1)
 	end
 	return (alt and "ALT-" or "") .. (ctrl and "CTRL-" or "") .. (shift and "SHIFT-" or "") .. (meta and "META-" or ""),
@@ -427,7 +428,8 @@ local function InsertOptions()
 		name = "MerathilisUI HoverCast Tooltip",
 		args = {
 			enabled = toggle(1, "Enable", "enabled"),
-			groupOnly = toggle(2, "Party / Raid Frames Only", "groupOnly", "Only show the tooltip on party and raid frames."),
+			groupOnly = toggle(2, "Party / Raid Frames Only", "groupOnly",
+				"Only show the tooltip on party and raid frames."),
 			anchorTo = select(3, "Anchor To", "anchorTo", {
 				FRAME = "Hovered Frame",
 				GROUP = "Whole Party / Raid Frame",
